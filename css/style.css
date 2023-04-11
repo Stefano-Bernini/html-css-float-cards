@@ -1,3 +1,4 @@
+/* UTILITIES */
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +13,14 @@
     max-width: 70vw;
     margin: 5vh auto;
  }
+
+ /* clearfix */
+ .descrizione::after{
+    content: '';
+    display: table;
+    clear: both;
+ }
+
 /* HEADER */
 /* colore, grandezza e margine del titolo principale */
  h1{
@@ -20,6 +29,56 @@
     margin-bottom: 5vh;
  }
 /* centrature del titolo principale e del paragrafo */
- h1, p{
+ h1, header p{
     text-align: center;
+ }
+
+ /* MAIN */
+ /* dimensione row */
+ .row{
+    width: 100%;
+    margin-top: 3vh;
+ }
+/* float colonne + spzziatura e numero colonne per row */
+ .col{
+    margin: 2vh;
+    float: left;
+    width: calc(100% / 3 - 4vh);
+ }
+/* float e dimensione img */
+ .foto img{
+    width: 30%;
+    float: left;
+ }
+/* colore background e testo delle cards */
+ .content{
+    color: white;
+    background-color: rgba(15,14,23,1);
+ }
+/* stile e colore link email */
+ a{
+    text-decoration: none;
+    color: rgba(23,204,242,1);
+    word-wrap: break-word
+ }
+/* centrature contenuto della descrizione */
+ .descrizione{
+    padding-left: 140px;
+    padding-top: 20px;
+ }
+/* spaziature tra scritte della descrizione */
+ .nome, .professione, .email{
+    padding-bottom: 5px;
+ }
+/* dimensione nome */
+ .nome{
+    font-size: 22px;
+ }
+/* dimensione professione */
+ .professione{
+    font-size: 19px;
+ }
+/* dimensione email */
+ .email{
+    font-size: 19px;
  }
