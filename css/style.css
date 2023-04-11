@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+/* font per la pagina */
+ body{
+    font-family: 'Fredoka', sans-serif;
+ }
+/* dimensione e centratura del container */
+ .container{
+    max-width: 70vw;
+    margin: 5vh auto;
+ }
+/* HEADER */
+/* colore, grandezza e margine del titolo principale */
+ h1{
+    color: rgba(229,49,112,1);
+    font-size: 3em;
+    margin-bottom: 5vh;
+ }
+/* centrature del titolo principale e del paragrafo */
+ h1, p{
+    text-align: center;
+ }
