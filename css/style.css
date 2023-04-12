@@ -21,6 +21,12 @@
     clear: both;
  }
 
+ .row::after{
+   content: '';
+   display: table;
+   clear: both;
+ }
+
 /* HEADER */
 /* colore, grandezza e margine del titolo principale */
  h1{
